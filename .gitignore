@@ -1,0 +1,45 @@
+# Local .terraform directories
+**/.terraform/*
+!.terraform/modules  # Optional: keep if you commit shared modules
+!.terraform/providers
+
+# Terragrunt cache
+.terragrunt-cache/
+
+# Terraform/Terragrunt state
+*.tfstate
+*.tfstate.*
+*.hcl.json
+*.backup
+
+# Crash logs
+crash.log
+
+# Terraform/Terragrunt plan files
+*.tfplan
+*.out
+
+# Override and secrets
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.tfvars
+*.auto.tfvars
+
+# IDE/editor settings
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# CLI history
+.terraformrc
+.terragrunt
+
+# Environment files
+.env
+.env.*
+
+.terraform.lock.hcl
